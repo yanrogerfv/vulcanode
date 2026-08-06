@@ -93,7 +93,7 @@ const PrivacidadePortugues: React.FC = () => (
       <h2>10. Contato</h2>
       <p>
         Dúvidas sobre esta Política podem ser enviadas para{' '}
-        <a href="mailto:contato@vulcanode.app">contato@vulcanode.app</a>.
+        <a href="mailto:contact@vulcanode.app">contato@vulcanode.app</a>.
       </p>
     </section>
   </>
@@ -187,7 +187,7 @@ const PrivacyEnglish: React.FC = () => (
       <h2>10. Contact</h2>
       <p>
         Questions about this Policy can be sent to{' '}
-        <a href="mailto:contato@vulcanode.app">contato@vulcanode.app</a>.
+        <a href="mailto:contact@vulcanode.app">contact@vulcanode.app</a>.
       </p>
     </section>
   </>
@@ -199,7 +199,7 @@ export default function PrivacidadePage() {
   return (
     <LegalLayout
       title={language === 'en' ? 'Privacy Policy' : 'Política de Privacidade'}
-      updatedAt={language === 'en' ? 'August 5, 2026' : '5 de agosto de 2026'}
+      updatedAt={language === 'en' ? 'August 6, 2026' : '6 de agosto de 2026'}
     >
       {language === 'en' ? <PrivacyEnglish /> : <PrivacidadePortugues />}
     </LegalLayout>
