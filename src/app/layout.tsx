@@ -14,7 +14,7 @@ const mono = JetBrains_Mono({
 });
 
 const title = "Vulcanode | Crafting Trees and Modular Graphs";
-const description = "Create crafting trees, item structures, and visual budgets in real time, with a super fluid and modern experience. No registration, no server — everything runs in your browser.";
+const description = "Crafting trees, structures, and visual budgets with a sublime experience. No registration, no server — all in your browser.";
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://vulcanode.app"),
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     description,
     keywords: [
         "crafting tree",
+        "crafting trees",
         "árvore de crafting",
         "grafo de composição",
         "orçamento visual",
@@ -34,6 +35,13 @@ export const metadata: Metadata = {
         "receitas de jogos",
         "item hierarchy",
         "game recipes",
+        "workflow",
+        "mapa mental",
+        "flow chart",
+        "nodes",
+        "editor visual",
+        "visual editor",
+        "graphs",
     ],
     authors: [{ name: "Vulcanode" }],
     openGraph: {
