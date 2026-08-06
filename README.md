@@ -10,7 +10,7 @@ Tudo roda no navegador: não há cadastro, login ou servidor guardando os seus p
 
 ## Funcionalidades
 
-- **Canvas ultrafluido** construído sobre [React Flow](https://reactflow.dev/), com nós em
+- **Canvas fluido** construído sobre [React Flow](https://reactflow.dev/), com nós em
   círculo, quadrado arredondado, losango (meta) e hexágono (estação/processo).
 - **Hierarquia invertida**: componentes na base conectam-se para cima em direção ao pai/meta,
   somando custos automaticamente em cascata.
@@ -37,42 +37,11 @@ Tudo roda no navegador: não há cadastro, login ou servidor guardando os seus p
 - [html-to-image](https://github.com/bubkoo/html-to-image) para exportação em PNG
 - [lucide-react](https://lucide.dev/) para o catálogo de ícones
 
-> **Nota:** este projeto usa uma versão do Next.js mais recente que pode divergir de convenções
-> conhecidas. Consulte `node_modules/next/dist/docs/` antes de alterar comportamentos de
-> roteamento, metadata ou build.
-
-## Rodando localmente
-
-```bash
-npm install
-npm run dev
-```
-
-Abra [http://localhost:3000](http://localhost:3000) no navegador.
-
-Outros scripts disponíveis:
-
-```bash
-npm run build   # build de produção
-npm run start   # serve o build de produção
-npm run lint    # eslint
-```
-
-## Deploy
-
-O projeto é stateless do lado do servidor (todo o estado do usuário vive no navegador), o que o
-torna compatível com deploy estático/serverless padrão na [Vercel](https://vercel.com/new). Antes
-de publicar:
-
-1. Atualize `metadataBase` em `src/app/layout.tsx` e o e-mail de contato em `src/app/termos` e
-   `src/app/privacidade` para o domínio final.
-2. Rode `npm run build` localmente para validar a build de produção.
-
 ## Estrutura do projeto
 
 ```
 src/
-  app/            # rotas (landing, /app do board, /termos, /privacidade)
+  app/            # rotas (landing, /app do board, /terms, /privacy)
   components/      # canvas, nós, edges, modais, UI compartilhada
   store/          # Zustand (estado do projeto, templates, codec de compartilhamento)
   lib/            # utilitários
