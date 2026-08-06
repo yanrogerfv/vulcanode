@@ -14,7 +14,7 @@ const mono = JetBrains_Mono({
 });
 
 const title = "Vulcanode | Crafting Trees and Modular Graphs";
-const description = "Crafting trees, structures, and visual budgets with a sublime experience. No registration, no server — only in your browser.";
+const description = "Crafting trees, structures, and visual budgets with a sublime experience. No registration, no server — all in your browser.";
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://vulcanode.app"),
