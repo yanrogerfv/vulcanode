@@ -384,15 +384,15 @@ export default function LandingPage() {
                         <GitCommitHorizontal className="w-4 h-4 hover:rotate-90 hover:text-orange-400 hover:scale-110 transition-all duration-200" />
                     </Link>
                     <nav className="flex items-center gap-2 text-xs font-medium text-muted-foreground">
-                        <Link href="/termos" className="hover:text-foreground transition-colors">
+                        <Link href="/terms" className="hover:text-foreground transition-colors">
                             {t('footerTerms')}
                         </Link>
                         <Dot className="w-2 h-2 text-muted-foreground" />
-                        <Link href="/privacidade" className="hover:text-foreground transition-colors">
+                        <Link href="/privacy" className="hover:text-foreground transition-colors">
                             {t('footerPrivacy')}
                         </Link>
                         <Dot className="w-2 h-2 text-muted-foreground" />
-                        <Link href="mailto:vulcanode.contact@gmail.com" className="hover:text-foreground transition-colors">
+                        <Link href="mailto:contact@vulcanode.app" className="hover:text-foreground transition-colors">
                             {t('footerContact')}
                         </Link>
                         <Dot className="w-2 h-2 text-muted-foreground" />
